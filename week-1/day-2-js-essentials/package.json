@@ -1,0 +1,19 @@
+{
+  "name": "day-2-js-essentials",
+  "version": "1.0.0",
+  "description": "Modern JS practice (ES6+, modules, array methods, error handling) split into reusable modules",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "basics": "node src/basics.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Tanmay Mishra",
+  "license": "ISC",
+  "private": true
+}
